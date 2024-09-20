@@ -1,0 +1,56 @@
+/* This is the CSS file for Page's Website  */
+
+header {
+	background-color: #eeebe3;
+}
+
+
+.container{
+	display: grid;
+	align-items: center;
+	grid-template-columns: auto auto;
+	column-gap: 0px;
+}
+
+.image{
+	padding: 0px;
+	margin: 0px;
+}
+
+.active{
+	background-color: #093b13;
+}
+
+h1 {
+	color: #093b13;
+	font-family: "PT Sans";
+	font-size: 80px;
+	margin: 0px;
+	padding-right: 80px;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #313845;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: #eeebe3;
+	font-size: 20px;
+	text-align: center;
+	padding: 8px 60px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #093b13;
+}
